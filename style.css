@@ -1,0 +1,26 @@
+:root {
+    @import url("https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@500&display=swap")
+        font-family: "Kaisei HarunoUmi",
+      serif;
+  }
+  .container {
+    background-color: white;
+    border-radius: 10px;
+    width: 450px;
+    padding: 6px;
+    box-shadow: 5px 10px #888888;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    margin-top: 5px;
+    transition: transform 0.3s;
+    display: flex;
+    align-items: center;
+  }
+  .details {
+    padding: 0 0 5px 10px;
+  }
+  .user-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
